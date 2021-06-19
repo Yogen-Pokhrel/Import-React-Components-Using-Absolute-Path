@@ -1,0 +1,69 @@
+@import 'scss/color.scss';
+@import 'scss/button.scss';
+:root{
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+
+
+  // background-image: linear-gradient( var(--primaryColor), blue);
+  background-image: linear-gradient(45deg,  alpha(var(--primaryColor), 1), alpha(var(--primaryColor), 0.7), alpha(var(--primaryColor), 0.6),  alpha(var(--primaryColor), 1));
+  // background-color: black;
+
+  // background-color: alpha(var(--primaryColor), 0.6);
+  // background-color: var(--primaryColor);
+  min-height: 100vh;
+  min-width: 100vw;
+  color: var(--onPrimary);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.c-body{
+  min-height: 90vh;
+  display: block;
+  width: 100%;
+}
+
+
+.backgroundImage{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  // background-image: url('./images/home/Pink-Cadillac.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
+.backgroundDesign{
+  position: relative;
+  display: block;
+  z-index: 2;
+}
+
+
+.bold-text{
+  font-weight: 600;
+}
+
+.text-lg{
+  font-size: 2rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,57 @@
+
+@import '../../scss/color.scss';
+.packageContainer{
+    @media screen and (min-width: 991px) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1200px;
+        max-width: 100%;
+    }
+  
+  }
+
+  .packageDesign{
+    background-color: alpha(var(--onPrimary), 0.5);
+    color: var(--onSurface);
+    border: 1px solid var(--onPrimary);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 20px 10px 10px rgba(0,0,0,0.2);
+  }
+
+  .pointsContainer{
+      min-height: 500px;
+      li{
+          font-size: 1rem;
+          color: var(--onSurface);
+          padding: 4px 0px;
+      }
+  }
+
+
+  .designPattern{
+
+    //   background-color: --var(onPrimary);
+      background-color: var(--onPrimary);
+      
+  
+  }
+
+  .designPatternInner{
+    min-height: 70vh;
+    // background-image: linear-gradient(to right, darken(#f8f8f6, 5), lighten(#f8f8f6, 10),lighten(#f8f8f6, 20),darken(#f8f8f6, 1),darken(#f8f8f6, 5),lighten(#f8f8f6, 10),  lighten(#f8f8f6, 20));
+    // background: radial-gradient( darken(#fcfbf2, 20), lighten(#fcfbf2, 20));
+    background-color: white;;
+    position: relative;
+  
+}
+
+.designImage{
+    max-width: 1200px;
+    position: absolute;
+    bottom: 0px;
+   left: 40%;
+   z-index: 1;
+}
