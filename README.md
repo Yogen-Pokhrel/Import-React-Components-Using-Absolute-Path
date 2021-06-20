@@ -4,7 +4,7 @@
     - npm install --save-dev babel-plugin-module-resolver
 2. Install customize cra and react wired using
     - npm install customize-cra react-app-rewired --dev
-3. create the .babelrc in the src folder and create the alias using the below sample code
+3. create the .babelrc in the src folder or in project directory and create the alias using the below sample code
 
     ```
        {
