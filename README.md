@@ -7,16 +7,19 @@
 3. create the .babelrc in the src folder and create the alias using the below sample code
 
     ```
-        {
-            "plugins": [
-                ["module-resolver", {
-                "root": ["./"],
-                alias: {
-                    Components: './src/components')
-                }
-                }]
-            ]
+       {
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./"],
+        "alias": {
+          "components": "./src/components",
+          "Containers": "./src/containers",
+          "Views": "./src/views",
+          "Routes": "./src/routes"
         }
+      }]
+    ]
+  }
     ```
 4. In the package.json file change the following code to
 
