@@ -8,19 +8,21 @@
 
     ```
        {
-    "plugins": [
-      ["module-resolver", {
-        "root": ["./"],
-        "alias": {
-          "components": "./src/components",
-          "Containers": "./src/containers",
-          "Views": "./src/views",
-          "Routes": "./src/routes"
-        }
-      }]
-    ]
-  }
+            "plugins": [
+              ["module-resolver", {
+                "root": ["./"],
+                "alias": {
+                  "components": "./src/components",
+                  "Containers": "./src/containers",
+                  "Views": "./src/views",
+                  "Routes": "./src/routes"
+                }
+              }]
+            ]
+          }
+  
     ```
+    
 4. In the package.json file change the following code to
 
     ### Before Change
